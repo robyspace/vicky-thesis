@@ -1,0 +1,2547 @@
+
+================================================================================
+STARTING MARL TRAINING
+================================================================================
+
+[Iteration 1/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.3s
+
+[Iteration 2/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 3/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 4/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.8s
+
+[Iteration 5/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 6/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.3s
+
+[Iteration 7/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.3s
+
+[Iteration 8/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 9/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.4s
+
+[Iteration 10/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1709 (27.8%)
+    Block(1): 1345 (21.9%)
+    Quarantine(2): 1260 (20.5%)
+    Alert(3): 1830 (29.8%)
+
+Iteration 10/300
+  Reward: -2074.47
+  Accuracy: 0.5000
+  F1-Score: 0.0000
+  STL Violations: 48
+  Policy Loss: 0.0161
+  Value Loss: 0.9990
+  Constraint Loss: 0.0036
+  BFT Success Rate: 100.00%
+
+[Iteration 11/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.3s
+
+[Iteration 12/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 13/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 14/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 15/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.4s
+
+[Iteration 16/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 17/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 18/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.3s
+
+[Iteration 19/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 20/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.3s
+
+  Action Distribution:
+    Allow(0): 1848 (30.1%)
+    Block(1): 1447 (23.6%)
+    Quarantine(2): 1287 (20.9%)
+    Alert(3): 1562 (25.4%)
+
+Iteration 20/300
+  Reward: -1827.69
+  Accuracy: 0.5417
+  F1-Score: 0.2667
+  STL Violations: 48
+  Policy Loss: 0.0041
+  Value Loss: 1.0000
+  Constraint Loss: 0.0007
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 20
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 21/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 22/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 23/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.4s
+
+[Iteration 24/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 25/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.4s
+
+[Iteration 26/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 27/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 28/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.5s
+
+[Iteration 29/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 30/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.4s
+
+  Action Distribution:
+    Allow(0): 1824 (29.7%)
+    Block(1): 1394 (22.7%)
+    Quarantine(2): 1284 (20.9%)
+    Alert(3): 1642 (26.7%)
+
+Iteration 30/300
+  Reward: -1721.14
+  Accuracy: 0.4792
+  F1-Score: 0.1935
+  STL Violations: 48
+  Policy Loss: 0.0068
+  Value Loss: 0.9996
+  Constraint Loss: 0.0003
+  BFT Success Rate: 100.00%
+
+[Iteration 31/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 32/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 33/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.4s
+
+[Iteration 34/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 35/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 36/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.5s
+
+[Iteration 37/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 38/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 39/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 40/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.5s
+
+  Action Distribution:
+    Allow(0): 1768 (28.8%)
+    Block(1): 1337 (21.8%)
+    Quarantine(2): 1304 (21.2%)
+    Alert(3): 1735 (28.2%)
+
+Iteration 40/300
+  Reward: -1435.29
+  Accuracy: 0.7083
+  F1-Score: 0.3000
+  STL Violations: 48
+  Policy Loss: 0.0010
+  Value Loss: 0.9996
+  Constraint Loss: 0.0004
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 40
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 41/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 42/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 43/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.6s
+
+[Iteration 44/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 45/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 46/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.5s
+
+[Iteration 47/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 48/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 49/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 50/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.6s
+
+  Action Distribution:
+    Allow(0): 1744 (28.4%)
+    Block(1): 1427 (23.2%)
+    Quarantine(2): 1243 (20.2%)
+    Alert(3): 1730 (28.2%)
+
+Iteration 50/300
+  Reward: -1482.13
+  Accuracy: 0.6667
+  F1-Score: 0.3333
+  STL Violations: 48
+  Policy Loss: 0.0002
+  Value Loss: 0.9995
+  Constraint Loss: 0.0002
+  BFT Success Rate: 100.00%
+
+[Iteration 51/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 52/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 53/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.6s
+
+[Iteration 54/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 55/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 56/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 57/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.6s
+
+[Iteration 58/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 59/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 60/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1681 (27.4%)
+    Block(1): 1476 (24.0%)
+    Quarantine(2): 1284 (20.9%)
+    Alert(3): 1703 (27.7%)
+
+Iteration 60/300
+  Reward: -1905.45
+  Accuracy: 0.4792
+  F1-Score: 0.1379
+  STL Violations: 48
+  Policy Loss: 0.0036
+  Value Loss: 0.9996
+  Constraint Loss: 0.0003
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 60
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 61/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.7s
+
+[Iteration 62/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 63/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 64/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 65/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.7s
+
+[Iteration 66/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 67/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 68/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 69/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.8s
+
+[Iteration 70/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1697 (27.6%)
+    Block(1): 1373 (22.3%)
+    Quarantine(2): 1321 (21.5%)
+    Alert(3): 1753 (28.5%)
+
+Iteration 70/300
+  Reward: -1770.81
+  Accuracy: 0.5417
+  F1-Score: 0.3125
+  STL Violations: 48
+  Policy Loss: -0.0012
+  Value Loss: 0.9993
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+[Iteration 71/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 72/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 73/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 74/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.7s
+
+[Iteration 75/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 76/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 77/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 78/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.8s
+
+[Iteration 79/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 80/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+  Action Distribution:
+    Allow(0): 1620 (26.4%)
+    Block(1): 1339 (21.8%)
+    Quarantine(2): 1364 (22.2%)
+    Alert(3): 1821 (29.6%)
+
+Iteration 80/300
+  Reward: -1908.10
+  Accuracy: 0.4583
+  F1-Score: 0.2353
+  STL Violations: 48
+  Policy Loss: 0.0004
+  Value Loss: 0.9997
+  Constraint Loss: 0.0002
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 80
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 81/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 82/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 83/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.9s
+
+[Iteration 84/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 85/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 86/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 87/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 88/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.8s
+
+[Iteration 89/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 90/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1759 (28.6%)
+    Block(1): 1375 (22.4%)
+    Quarantine(2): 1315 (21.4%)
+    Alert(3): 1695 (27.6%)
+
+Iteration 90/300
+  Reward: -1557.25
+  Accuracy: 0.5625
+  F1-Score: 0.3226
+  STL Violations: 48
+  Policy Loss: -0.0016
+  Value Loss: 0.9997
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+[Iteration 91/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 92/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 93/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.8s
+
+[Iteration 94/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 95/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 96/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 97/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 98/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.9s
+
+[Iteration 99/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 100/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1674 (27.2%)
+    Block(1): 1400 (22.8%)
+    Quarantine(2): 1427 (23.2%)
+    Alert(3): 1643 (26.7%)
+
+Iteration 100/300
+  Reward: -1617.04
+  Accuracy: 0.6458
+  F1-Score: 0.3200
+  STL Violations: 48
+  Policy Loss: -0.0021
+  Value Loss: 0.9999
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 100
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 101/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 102/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 103/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 104/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.0s
+
+[Iteration 105/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 106/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 107/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 108/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 109/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 110/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.0s
+
+  Action Distribution:
+    Allow(0): 1729 (28.1%)
+    Block(1): 1360 (22.1%)
+    Quarantine(2): 1316 (21.4%)
+    Alert(3): 1739 (28.3%)
+
+Iteration 110/300
+  Reward: -2046.07
+  Accuracy: 0.4375
+  F1-Score: 0.0000
+  STL Violations: 48
+  Policy Loss: -0.0030
+  Value Loss: 0.9996
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+[Iteration 111/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 112/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 113/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 114/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 115/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 116/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.1s
+
+[Iteration 117/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 118/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 119/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 120/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1651 (26.9%)
+    Block(1): 1475 (24.0%)
+    Quarantine(2): 1311 (21.3%)
+    Alert(3): 1707 (27.8%)
+
+Iteration 120/300
+  Reward: -1436.78
+  Accuracy: 0.5625
+  F1-Score: 0.1600
+  STL Violations: 48
+  Policy Loss: -0.0015
+  Value Loss: 0.9991
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 120
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 121/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 122/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.0s
+
+[Iteration 123/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 124/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 125/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 126/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 127/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 128/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 129/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.2s
+
+[Iteration 130/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1693 (27.6%)
+    Block(1): 1424 (23.2%)
+    Quarantine(2): 1320 (21.5%)
+    Alert(3): 1707 (27.8%)
+
+Iteration 130/300
+  Reward: -1796.47
+  Accuracy: 0.5625
+  F1-Score: 0.0870
+  STL Violations: 48
+  Policy Loss: 0.0008
+  Value Loss: 0.9994
+  Constraint Loss: 0.0002
+  BFT Success Rate: 100.00%
+
+[Iteration 131/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 132/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 133/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 134/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 135/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.3s
+
+[Iteration 136/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 137/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 138/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.3s
+
+[Iteration 139/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 140/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+  Action Distribution:
+    Allow(0): 1687 (27.5%)
+    Block(1): 1390 (22.6%)
+    Quarantine(2): 1323 (21.5%)
+    Alert(3): 1744 (28.4%)
+
+Iteration 140/300
+  Reward: -1458.42
+  Accuracy: 0.5833
+  F1-Score: 0.1667
+  STL Violations: 48
+  Policy Loss: -0.0021
+  Value Loss: 0.9995
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 140
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 141/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 142/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.3s
+
+[Iteration 143/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 144/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 145/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 146/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 147/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 148/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 149/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 150/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.5s
+
+  Action Distribution:
+    Allow(0): 1671 (27.2%)
+    Block(1): 1520 (24.7%)
+    Quarantine(2): 1322 (21.5%)
+    Alert(3): 1631 (26.5%)
+
+Iteration 150/300
+  Reward: -1559.82
+  Accuracy: 0.6042
+  F1-Score: 0.2400
+  STL Violations: 48
+  Policy Loss: 0.0012
+  Value Loss: 0.9989
+  Constraint Loss: 0.0002
+  BFT Success Rate: 100.00%
+
+[Iteration 151/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 152/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 153/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.2s
+
+[Iteration 154/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 155/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 156/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 157/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.2s
+
+[Iteration 158/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 159/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 160/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1718 (28.0%)
+    Block(1): 1456 (23.7%)
+    Quarantine(2): 1285 (20.9%)
+    Alert(3): 1685 (27.4%)
+
+Iteration 160/300
+  Reward: -2031.11
+  Accuracy: 0.5000
+  F1-Score: 0.0769
+  STL Violations: 48
+  Policy Loss: -0.0023
+  Value Loss: 1.0000
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 160
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 161/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 162/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 163/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 164/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 165/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.5s
+
+[Iteration 166/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 167/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 168/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 169/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 170/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1707 (27.8%)
+    Block(1): 1492 (24.3%)
+    Quarantine(2): 1355 (22.1%)
+    Alert(3): 1590 (25.9%)
+
+Iteration 170/300
+  Reward: -1878.84
+  Accuracy: 0.5417
+  F1-Score: 0.0000
+  STL Violations: 48
+  Policy Loss: -0.0017
+  Value Loss: 0.9992
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+[Iteration 171/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 172/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 173/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.4s
+
+[Iteration 174/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 175/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 176/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 177/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 178/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 179/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 180/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1630 (26.5%)
+    Block(1): 1427 (23.2%)
+    Quarantine(2): 1374 (22.4%)
+    Alert(3): 1713 (27.9%)
+
+Iteration 180/300
+  Reward: -1562.61
+  Accuracy: 0.6667
+  F1-Score: 0.2727
+  STL Violations: 48
+  Policy Loss: -0.0032
+  Value Loss: 1.0001
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 180
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 181/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 182/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.6s
+
+[Iteration 183/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.8s
+
+[Iteration 184/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 185/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 186/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 187/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 188/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 189/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 190/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1692 (27.5%)
+    Block(1): 1491 (24.3%)
+    Quarantine(2): 1336 (21.7%)
+    Alert(3): 1625 (26.4%)
+
+Iteration 190/300
+  Reward: -1692.87
+  Accuracy: 0.5833
+  F1-Score: 0.1667
+  STL Violations: 48
+  Policy Loss: -0.0012
+  Value Loss: 0.9995
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+[Iteration 191/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.5s
+
+[Iteration 192/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 193/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 194/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 195/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 196/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 197/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 198/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 199/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 200/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 1, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.7s
+
+  Action Distribution:
+    Allow(0): 1709 (27.8%)
+    Block(1): 1466 (23.9%)
+    Quarantine(2): 1379 (22.4%)
+    Alert(3): 1590 (25.9%)
+
+Iteration 200/300
+  Reward: -1370.87
+  Accuracy: 0.5625
+  F1-Score: 0.2222
+  STL Violations: 48
+  Policy Loss: -0.0016
+  Value Loss: 0.9998
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 200
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 201/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 202/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 1, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 203/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 204/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 205/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 206/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 207/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 3, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 208/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 0, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.1s
+
+[Iteration 209/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.7s
+
+[Iteration 210/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1708 (27.8%)
+    Block(1): 1376 (22.4%)
+    Quarantine(2): 1331 (21.7%)
+    Alert(3): 1729 (28.1%)
+
+Iteration 210/300
+  Reward: -1718.28
+  Accuracy: 0.5833
+  F1-Score: 0.0909
+  STL Violations: 48
+  Policy Loss: 0.0004
+  Value Loss: 0.9998
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+[Iteration 211/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 1, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 212/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [2, 2, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 213/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 3]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 214/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 215/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 3, 1]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 216/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 217/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 218/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 219/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 12.9s
+
+[Iteration 220/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 0, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+  Action Distribution:
+    Allow(0): 1724 (28.1%)
+    Block(1): 1434 (23.3%)
+    Quarantine(2): 1303 (21.2%)
+    Alert(3): 1683 (27.4%)
+
+Iteration 220/300
+  Reward: -1728.76
+  Accuracy: 0.5625
+  F1-Score: 0.2222
+  STL Violations: 48
+  Policy Loss: -0.0005
+  Value Loss: 0.9995
+  Constraint Loss: 0.0001
+  BFT Success Rate: 100.00%
+
+ Running evaluation on 50 batches...
+ Evaluation complete:
+   Samples: 1600
+   TP: 0, TN: 1419, FP: 0, FN: 181
+
+================================================================================
+EVALUATION at iteration 220
+================================================================================
+  Accuracy:  0.8869
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  STL Violations: 0
+================================================================================
+
+
+[Iteration 221/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [3, 3, 0]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 222/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 11.0s
+
+[Iteration 223/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [0, 0, 2]
+   Action dimension: 4
+   All actions valid: True
+  ✓ Collected in 10.9s
+
+[Iteration 224/300] Starting...
+  Collecting trajectories...
+
+ Action space check:
+   Actions taken: [1, 2, 3]
+   Action dimension: 4
+   All actions valid: True
