@@ -1,21 +1,18 @@
 {
   "total_records": 500000,
-  "train_records": 350000,
+  "train_records": 349999,
   "val_records": 75000,
-  "test_records": 75000,
-  "train_time_range": [
-    "1970-01-01 00:00:00",
-    "2019-05-07 20:01:42.098000"
-  ],
-  "val_time_range": [
-    "2019-05-07 20:01:42.098000",
-    "2019-05-07 20:01:46.598000"
-  ],
-  "test_time_range": [
-    "2019-05-07 20:01:46.598000",
-    "2019-05-07 21:54:19.668000"
-  ],
-  "suspicious_rate_train": 9.249142857142857,
-  "suspicious_rate_val": 1.04,
-  "suspicious_rate_test": 20.174666666666667
+  "test_records": 75001,
+  "train_threats": 38244,
+  "val_threats": 8195,
+  "test_threats": 8195,
+  "train_threat_pct": 10.926888362538179,
+  "val_threat_pct": 10.926666666666666,
+  "test_threat_pct": 10.926520979720271,
+  "overall_threat_pct": 10.9268,
+  "split_method": "stratified",
+  "random_state": 42,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "max_distribution_diff": 0.00036738281790782423
 }
